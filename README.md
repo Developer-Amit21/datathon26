@@ -12,7 +12,6 @@ This workspace contains a full-stack crime intelligence platform with:
 ## Run Backend
 ```bash
 cd backend
-python3.11 -m pip install --break-system-packages --user -r requirements.txt
 PYTHONPATH=/home/dev-amit/Desktop/Datathon26/backend python3.11 -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
